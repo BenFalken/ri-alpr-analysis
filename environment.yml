@@ -1,0 +1,22 @@
+name: alpr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - requests
+  - numpy
+  - pandas
+  - geopandas
+  - pyogrio
+  - shapely>=2
+  - folium
+  - mapclassify
+  - matplotlib
+  - statsmodels
+  - scipy
+  - libpysal
+  - esda
+  - numba
+  - pip
+  - pip:
+      - pygris
